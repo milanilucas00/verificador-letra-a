@@ -1,0 +1,42 @@
+body {
+    background-color: #d3d3d3;
+}
+
+
+main {
+    font-family: "Loto", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main .container {
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+main .container .container-2 {
+    display: flex;
+    gap: 30px;
+}
+
+main .container .container-2 #checkButton {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #2d9efa;
+    border: none;
+    font-size: 15px;
+}
+
+main .container .container-2 #checkButton:hover {
+    background-color: #124066;
+    color: white;
+}
